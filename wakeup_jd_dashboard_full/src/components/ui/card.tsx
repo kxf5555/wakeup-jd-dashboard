@@ -1,1 +1,0 @@
-import React from 'react';export function Card({children,className}:{children:React.ReactNode,className?:string}){return <div className={`bg-white rounded-2xl shadow-sm ${className||''}`}>{children}</div>}export function CardContent({children,className}:{children:React.ReactNode,className?:string}){return <div className={`p-4 md:p-6 ${className||''}`}>{children}</div>}
